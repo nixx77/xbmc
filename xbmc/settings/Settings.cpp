@@ -361,6 +361,7 @@ const std::string CSettings::SETTING_AUDIOOUTPUT_DTSPASSTHROUGH = "audiooutput.d
 const std::string CSettings::SETTING_AUDIOOUTPUT_TRUEHDPASSTHROUGH = "audiooutput.truehdpassthrough";
 const std::string CSettings::SETTING_AUDIOOUTPUT_DTSHDPASSTHROUGH = "audiooutput.dtshdpassthrough";
 const std::string CSettings::SETTING_AUDIOOUTPUT_VOLUMESTEPS = "audiooutput.volumesteps";
+const std::string CSettings::SETTING_AUDIOOUTPUT_DSD = "audiooutput.dsd";
 const std::string CSettings::SETTING_INPUT_PERIPHERALS = "input.peripherals";
 const std::string CSettings::SETTING_INPUT_PERIPHERALLIBRARIES = "input.peripherallibraries";
 const std::string CSettings::SETTING_INPUT_ENABLEMOUSE = "input.enablemouse";
@@ -993,6 +994,7 @@ void CSettings::InitializeISettingCallbacks()
   settingSet.clear();
   settingSet.insert(CSettings::SETTING_LOCALE_TIMEZONE);
   settingSet.insert(CSettings::SETTING_LOCALE_TIMEZONECOUNTRY);
+  settingSet.insert(CSettings::SETTING_AUDIOOUTPUT_DSD);
   GetSettingsManager()->RegisterCallback(&g_timezone, settingSet);
 #endif
 

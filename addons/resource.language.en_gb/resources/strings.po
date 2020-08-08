@@ -22132,3 +22132,14 @@ msgctxt "#39119"
 msgid "Last modified"
 msgstr ""
 
+# Label for DSD Enable option
+#: system/settings/ettings.xml
+msgctxt "#39120"
+msgid "DSD Enable"
+msgstr ""
+
+# Help for DSD Enable option
+#: system/settings/ettings.xml
+msgctxt "#39121"
+msgid "Enable passing Native DSD Stream to DAC"
+msgstr ""
